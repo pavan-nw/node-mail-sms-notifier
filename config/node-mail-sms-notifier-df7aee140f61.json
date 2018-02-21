@@ -2,11 +2,13 @@
   "type": "service_account",
   "project_id": "node-mail-sms-notifier",
   "private_key_id": "df7aee140f613bbf94ea84522792a4d65bc84be9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0frhgZoXqvriA\n9JMc39bubPgvyTmSJOFT6tvcezglRJ5HepXOP17VBE1GN8Y/YhRkyv3ZNRcKPItG\ncfvIphSAEX6d0h3rvLW97uP+jqr/pOUPhB6fkZ72ltuxSANSsOsbol4XS26O/Xuo\n+p6TSj+krrSQ9fBL1tZAZRtPfzladt1lq7UVqFzZRW2TH7Sy7anXvIBMDtzEKwN4\nXVDuBkcCjJdWcbr2cgs2GFXSIkttzfwJDXqrSJxGEOciQ8b0YEXpv2NWb0uo5rED\nSdITMS8zfHSHwqPShXnDcTZhbRZJm4Y/zKtBw+qSFmKpnSTWgNnnVJxLrvlBi5gc\nfoD7xnWrAgMBAAECggEADgsJ914irzf1jPr6czWrOFO8H6OtWgSKj4fnYUko/iVP\nl0ofW7OsgjBafssaHpZX9duhUoQB7eb2Ax4dM+hQEgLKcicF8vB0x3lNveGFxmwi\n8kkaRNoEnzTvlOSAda+UK0s/vNo+mNt6ApS1P8p4Fy0MmXa5In1toAb9z/qbEMGr\nHzaZhCSgKhxYni8Ym+cF+8EICLRwy29pgay6KGnoz+4TfS1MblroExtHJpZd+bZJ\nOVRaM2UMc/R/uMdoH2qa+xAtvkj2o6D4ZF75SBZbJ788p21o/VUV0soguCwU+xxf\n3lbtFTOQXx1vUl3vLB0RjufMXmjcIhxPyqfYeZKP2QKBgQDw9FT29peREKzrWJ0T\nPzv7+rajfl9jF28FzkhDiEE8rhguNrKNGTrwWzBPfpOLvghpUSd6D3E5qIDYMgZY\nyN65dzifcYzVgdgLmbgvDSt506Q7bYXX7QpIzH3FzAmR64Pl4eDxufdKKDgcB6C0\nGcMnxfSSPYEWLgVjiXjSEHVbTQKBgQC/w/EJ/tOHhEpAVO7Vt2PdntEoLQCu8w/9\nAeFy9QD5kbYozCojMAm/VDyCJBZGyWnzVXdFjd8f5EFNLgl432hTR4rKmTBVsJdB\nYpJoR48o/lM1GlWtfAuGhZaiON6DjfiMzQls6OpR2352CX9zZVIFRc6HW+Lz2LX0\nw6PGcd3o1wKBgF9Dyr/lmOEy3Zsi6t9sNdQXONSFJ0NvRWbfOvTwTxKlpkvHNmrQ\n2dujwgL8AWvTk1HIUzpQFqz8MQzJIndB28UqHMn1RAA6GOflO8vmghTll14jnDJV\ntqY3q1ZjqDj4C6r81kncA6hfJGf4oBH0yZLVEjArfvj88wZ6mLk85plVAoGAO4Kh\nIMr19g41xLUW0TfyQ+pvWhptJd3ETm3w+u3ReaGgeBSz1uunerq3dGOijiEfQiZ5\ntxoJ7im1oi/xPJOIGqAPEERt3YnJxr7CVJ4wbTZPuCEOCaJ/KSX30yv20biTM47F\nqAi3/uMw4YydAsCkrYI2T4dSbP4JqYW1I3ZeuU0CgYANImyUaeFPN3cOjKKgrQZT\ndo4lsni0lF0FnGAOOXeyv9+tL+nFWtJqbEgr+yGSwFkFRDd4gfOgfMi0PnxNTm7A\nhof6v8xH5d5IHWH54KJTA5xB24+wCvPPoyZ+Glc9klFWliONByaDmvn7ElX7dik1\nRB2IL1D4WycSVSN+aq1YYg==\n-----END PRIVATE KEY-----\n",
-  "client_email": "node-mail-client@node-mail-sms-notifier.iam.gserviceaccount.com",
-  "client_id": "116223552343759149253",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n-----END PRIVATE KEY-----\n",
+  "client_email":
+    "node-mail-client@node-mail-sms-notifier.iam.gserviceaccount.com",
+  "client_id": "CLIENTID",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://accounts.google.com/o/oauth2/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/node-mail-client%40node-mail-sms-notifier.iam.gserviceaccount.com"
+  "client_x509_cert_url":
+    "https://www.googleapis.com/robot/v1/metadata/x509/node-mail-client%40node-mail-sms-notifier.iam.gserviceaccount.com"
 }
