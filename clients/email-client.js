@@ -1,11 +1,9 @@
 const nodemailer = require("nodemailer");
-const authConfig = require("../config/node-mail-sms-notifier-df7aee140f61.json");
+const authConfig = require("../config/node-mail-sms-notifier-3671247c7eef.json");
 
 class EmailClient {
   constructor() {
     console.log("email client created");
-    // console.log(authConfig.client_id);
-    // console.log(authConfig.private_key);
     this.client = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 465,
@@ -19,7 +17,7 @@ class EmailClient {
     });
   }
 
-  sendMail(to, html, subject) {
+  sendMail(to, html, subject, successCb, errCb) {
     this.client
       .sendMail({
         to,
@@ -28,9 +26,11 @@ class EmailClient {
       })
       .then(info => {
         console.log(info);
+        successCb(info);
       })
       .catch(error => {
         console.log("Error is ", error);
+        errCb(error);
       });
   }
 }

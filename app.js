@@ -25,13 +25,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", index);
 app.use("/users", users);
 
-const emailclient = require("./clients/email-client");
-emailclient.sendMail(
-  "pavansdoc@gmail.com",
-  "<b>Email recieved</b>",
-  "Node Mailer Mail"
-);
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error("Not Found");
