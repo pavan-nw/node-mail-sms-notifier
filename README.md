@@ -26,3 +26,20 @@ These APIs can be consumed by any client app like, Android, ReactJS etc..
 ![alt text](https://github.com/pavan-nw/node-mail-sms-notifier/blob/master/sms-api.png "SMS API in Postman Client")
 
 ![alt text](https://github.com/pavan-nw/node-mail-sms-notifier/blob/master/mail-api.png "MAIL API in Postman Client")
+
+
+## Configurations
+
+For SMS SDK by Twilio, we need to provide following `config in node-mail-sms-notifier/config/sms-config.js`
+
+`const accountAuth = {
+  accountSid: "<YOUR_TWILLIO_ACCOUNT_SID>",
+  authToken: "<YOUR_AUTH_TOKEN>",
+  twilioPhoneNum: "<YOUR_TWILLIO_PHONENUM>"
+};`
+
+For node-mailer we have to provide GSuite service accoint configurations- it is not uploaded in repo but you can follow this <a href='https://developers.google.com/identity/protocols/OAuth2ServiceAccount'>link</a> and put the json file in `node-mail-sms-notifier/config/` and mention this file name in `node-mail-sms-notifier/clients/ems-client.js` as shown below
+
+`const authConfig = require("../config/node-mail-sms-notifier-3671247c7eef.json");`
+
+`node-mail-sms-notifier-3671247c7eef.json` this is the json file downloaded from Google Developers Page when creating service account.
