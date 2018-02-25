@@ -32,11 +32,13 @@ These APIs can be consumed by any client app like, Android, ReactJS etc..
 
 For SMS SDK by Twilio, we need to provide following `config in node-mail-sms-notifier/config/sms-config.js`
 
-`const accountAuth = {
+```
+const accountAuth = {
   accountSid: "<YOUR_TWILLIO_ACCOUNT_SID>",
   authToken: "<YOUR_AUTH_TOKEN>",
   twilioPhoneNum: "<YOUR_TWILLIO_PHONENUM>"
-};`
+};
+```
 
 For node-mailer we have to provide GSuite service accoint configurations- it is not uploaded in repo but you can follow this <a href='https://developers.google.com/identity/protocols/OAuth2ServiceAccount'>link</a> and put the json file in `node-mail-sms-notifier/config/` and mention this file name in `node-mail-sms-notifier/clients/ems-client.js` as shown below
 
